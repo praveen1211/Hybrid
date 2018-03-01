@@ -1,0 +1,11 @@
+url=http://way2automation.com/way2auto_jquery/index.php
+Signin_button=(.//*[@id='load_form']/div/div[1]/p/a)[2]
+userName=(.//*[@name='action']/following::input[1])[2]
+Password=(.//*[@id='load_form']/fieldset[2]/input)
+Login_button=(.//*[@id='load_form']/div/div[2]/input)[2]
+
+
+Reg_button=.//a[text()='Registration']
+fname=.//*[@id='register_form']/fieldset[1]/p[1]/input
+lname=.//*[@id='register_form']/fieldset[1]/p[2]/input
+
